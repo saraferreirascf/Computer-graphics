@@ -14,7 +14,7 @@ public class Obj_Renderer : MonoBehaviour
     public Vector3[] vertices;
     public Vector2[] textures;
     public Vector3[] normals;
-    public string filepath = "/Users/saraferreira/Documents/Faculdade/Semestre2/CG/object.obj";
+    public string filepath = "./object.obj";
 
     public Material material;
 
@@ -114,8 +114,8 @@ public class Obj_Renderer : MonoBehaviour
         MeshFilter filter = gameObject.AddComponent<MeshFilter>();
         filter.mesh = myMesh;
         rend = GetComponent<MeshRenderer> ();
-        //shader1 = Shader.Find("Unlit/Gourad");
-        //rend.material.shader = shader1;
+        shader1 = Shader.Find("Unlit/Phong");
+        rend.material.shader = shader1;
         
         
     }

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.5520116, g: 0.5520116, b: 0.5520116, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1.3
@@ -214,7 +214,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2117942532}
   - component: {fileID: 2117942533}
-  - component: {fileID: 2117942534}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -253,19 +252,7 @@ MonoBehaviour:
   vertices: []
   textures: []
   normals: []
-  filepath: /Users/saraferreira/Documents/Faculdade/Semestre2/CG/object.obj
+  filepath: ./object.obj
   material: {fileID: 0}
   shader1: {fileID: 0}
   rend: {fileID: 0}
---- !u!114 &2117942534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2117942531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 966d73bddd4134721bcf74cb6c5a1e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

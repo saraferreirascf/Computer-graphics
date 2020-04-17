@@ -130,9 +130,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 809456460}
-  - component: {fileID: 809456459}
-  - component: {fileID: 809456461}
   - component: {fileID: 809456462}
+  - component: {fileID: 809456461}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -140,25 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &809456459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809456458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89ad61eef41a148a68eafd8bfee71c01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reader: {fileID: 0}
-  mesh1: {fileID: 0}
-  vertices: []
-  textures: []
-  normals: []
-  filepath: /Users/saraferreira/Downloads/object.obj
-  material: {fileID: 0}
 --- !u!4 &809456460
 Transform:
   m_ObjectHideFlags: 0
@@ -182,10 +162,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 809456458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d52dea76cf48d4782a76b712ce2e7ce4, type: 3}
+  m_Script: {fileID: 11500000, guid: b93c53671f4cb4ed5811d631b1987e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panSpeed: 20
 --- !u!114 &809456462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,9 +174,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 809456458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b93c53671f4cb4ed5811d631b1987e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 89ad61eef41a148a68eafd8bfee71c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reader: {fileID: 0}
+  mesh1: {fileID: 0}
+  vertices: []
+  textures: []
+  normals: []
+  filepath: ./object.obj
+  material: {fileID: 0}
+  shader1: {fileID: 0}
+  rend: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
