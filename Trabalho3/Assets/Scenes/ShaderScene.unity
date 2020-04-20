@@ -214,6 +214,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2117942532}
   - component: {fileID: 2117942533}
+  - component: {fileID: 2117942535}
+  - component: {fileID: 2117942534}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -256,3 +258,32 @@ MonoBehaviour:
   material: {fileID: 0}
   shader1: {fileID: 0}
   rend: {fileID: 0}
+--- !u!114 &2117942534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117942531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170bcff0166484b77ae6c0268e1ed7a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  cam3: {fileID: 0}
+  cam4: {fileID: 0}
+--- !u!114 &2117942535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117942531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52dea76cf48d4782a76b712ce2e7ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panSpeed: 20
