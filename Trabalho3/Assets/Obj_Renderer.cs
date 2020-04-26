@@ -114,7 +114,7 @@ public class Obj_Renderer : MonoBehaviour
         MeshFilter filter = gameObject.AddComponent<MeshFilter>();
         filter.mesh = myMesh;
         rend = GetComponent<MeshRenderer> ();
-        shader1 = Shader.Find("Unlit/Phong");
+        shader1 = Shader.Find("Unlit/Gourad");
         rend.material.shader = shader1;
         
         

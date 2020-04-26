@@ -47,12 +47,14 @@
   <ItemGroup>
      <Compile Include="Assets\Bezier.cs" />
      <Compile Include="Assets\BezierCurve.cs" />
+     <Compile Include="Assets\BezierCurveInput.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\CameraSwitch.cs" />
      <Compile Include="Assets\Lights.cs" />
      <Compile Include="Assets\Line.cs" />
      <Compile Include="Assets\Obj_Reader.cs" />
      <Compile Include="Assets\Obj_Renderer.cs" />
+     <Compile Include="Assets\Obj_Renderer2.cs" />
      <None Include="Assets\Phong.shader" />
      <None Include="Assets\Gourad.shader" />
  <Reference Include="UnityEngine">

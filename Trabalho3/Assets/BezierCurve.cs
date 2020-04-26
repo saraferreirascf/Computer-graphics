@@ -16,12 +16,21 @@ public class BezierCurve : MonoBehaviour {
 		return GetVelocity(t).normalized;
 	}
 
-	public void Reset () {
+	public void Start () {
 		points = new Vector3[] {
 			new Vector3(1f, 0f, 0f),
-			new Vector3(2f, 0f, 0f),
-			new Vector3(3f, 0f, 0f),
-			new Vector3(4f, 0f, 0f)
-		};
+            new Vector3(2f, 0f, 0f),
+            new Vector3(3f, 0f, 0f),
+            new Vector3(4f, 0f, 0f)
+        };
 	}
+    public Vector3 GetLastPoint() {
+        return points[3];
+    }
+    public void SetPoints(Vector3 a, Vector3 b, Vector3 c, Vector3 d) {
+        points = new Vector3[]
+        {
+           a, b, c, d
+        };
+    }
 }
